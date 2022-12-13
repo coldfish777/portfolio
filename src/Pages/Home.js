@@ -10,9 +10,9 @@ function Home() {
     >
       <Center m={5}>
         <Stack spacing={10} align={"left"}>
-          <Text fontSize="7xl">
+          <Text fontSize="9xl">
             <Highlight
-              query="Hello,"
+              query="Hello"
               styles={{ px: "2", py: "1", bg: "yellow" }}
             >
               Hello,
