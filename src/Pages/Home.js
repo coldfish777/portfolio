@@ -13,7 +13,7 @@ function Home() {
         />
       </Text>
 
-      <Text fontSize="5xl" position="absolute" top="55vh" left="10vw">
+      <Text fontSize="5xl" position="absolute" top="60vh" left="10vw">
         <TypeAnimation
           // Same String at the start will only be typed once, initially
           sequence={[
