@@ -8,6 +8,7 @@ import {
   Heading,
   Text,
   Highlight,
+  Show,
 } from "@chakra-ui/react";
 
 function ProjectCard({ title, desc, image, alt, link }) {
@@ -39,7 +40,9 @@ function ProjectCard({ title, desc, image, alt, link }) {
               {title}
             </Highlight>
           </Heading>
-          <Text py={5}>{desc}</Text>
+          <Show above="lg">
+            <Text py={5}>{desc}</Text>
+          </Show>
         </CardBody>
       </Stack>
     </Card>

@@ -4,7 +4,7 @@ import ProjectCard from "../Components/ProjectCard";
 function Projects() {
   return (
     <SimpleGrid
-      columns={2}
+      columns={{ md: 1, lg: 2 }}
       spacing="3vh 3vw"
       w="100vw"
       h="100vh"
