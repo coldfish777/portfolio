@@ -19,16 +19,16 @@ function Header() {
         fontWeight="medium"
         fontSize="1xl"
       >
-        <BreadcrumbItem as={Link} to="/portfolio/home">
+        <BreadcrumbItem as={Link} to="/">
           <BreadcrumbLink>Home</BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbItem>
-          <BreadcrumbLink as={Link} to="/portfolio/projects">
+          <BreadcrumbLink as={Link} to="/projects">
             Projects
           </BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbItem>
-          <BreadcrumbLink as={Link} to="/portfolio/about">
+          <BreadcrumbLink as={Link} to="/about">
             About
           </BreadcrumbLink>
         </BreadcrumbItem>
