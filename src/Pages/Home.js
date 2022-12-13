@@ -20,10 +20,10 @@ function Home() {
           </Text>
           <Text fontSize="4xl">
             <Highlight
-              query={["web", "intuitive"]}
+              query={["building experiences"]}
               styles={{ px: "2", py: "1", bg: "yellow" }}
             >
-              I am a web developer focused on intuitive design.
+              I am a designer focused on building experiences.
             </Highlight>
           </Text>
         </Stack>
