@@ -7,7 +7,7 @@ function Home() {
       <Text fontSize="9xl" position="absolute" top="30vh" left="10vw" as="mark">
         <TypeAnimation
           // Same String at the start will only be typed once, initially
-          sequence={["Hello,", 1000]}
+          sequence={[300, "Hello,", 1000]}
           speed={1} // Custom Speed from 1-99 - Default Speed: 40
           cursor={false} // Hide Cursor - Default: true
         />
@@ -17,12 +17,12 @@ function Home() {
         <TypeAnimation
           // Same String at the start will only be typed once, initially
           sequence={[
+            2000,
             "I design unique experiences.",
             2000,
             "I build intuitive interfaces.",
             2000,
             "I engineer innovative software.",
-            2000,
           ]}
           speed={50} // Custom Speed from 1-99 - Default Speed: 40
           repeat={Infinity} // Repeat this Animation Sequence infinitely
